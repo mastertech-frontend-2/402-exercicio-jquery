@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ddd;
+}
+
+header nav span{
+    padding: 0 5px;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section div{
+    width: 25%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+section div img{
+    width: 100%;
+}
