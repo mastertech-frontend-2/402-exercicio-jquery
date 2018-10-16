@@ -13,6 +13,7 @@ header{
 
 header nav span{
     padding: 0 5px;
+    cursor: pointer;
 }
 
 section{
@@ -28,4 +29,8 @@ section div{
 
 section div img{
     width: 100%;
+}
+
+nav span.ativa{
+    color: blue;
 }
